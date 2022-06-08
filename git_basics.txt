@@ -1,0 +1,48 @@
+Git Basics 
+(A) Initialization/Configuration
+----------------------
+- mkdir name_of_directory
+- cd name_of_directory
+- git init
+- set configurations e.g git config --global ...
+
+(B) Working with files
+-------------------------
+- git add file_name.txt
+- git commit -m "Comment"
+- code file_name.txt # to open a file via vscode
+- echo text >> file.txt # to append to a file
+- git rm file.txt
+
+
+(C) Checking operations status
+----------------------------------
+- git status
+- git ls-files
+
+
+(D)Getting help
+-----------------
+- git help
+- git config -h
+
+
+(E) staging area operations
+-----------------------------
+- git rm --cached file.txt  # to remove a file from the staging area
+- git diff # to see the differnece between files currently in staging area and the pprevious commit
+- git diff --staged
+- git status -s
+
+
+(F) Commit operations
+--------------------------
+- git log  # to see commit history
+- git log --oneline
+- git log --pretty=oneline
+
+
+
+
+
+
